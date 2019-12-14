@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
     /// </summary>
     private void Move()
     {
-        rig.AddForce(transform.right * speed);
+          rig.AddForce(transform.right * speed);
     }
     #endregion
 }
